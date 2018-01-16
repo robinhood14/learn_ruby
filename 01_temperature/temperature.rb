@@ -1,12 +1,7 @@
-# convert fahrenheit to celcius
-def ftoc (f_degree)
-    (f_degree -32.0) * 5.0/9.0  
+def ftoc(num)
+    return (num-32)*(5.0/9.0) #la fonction prend en entrée la température en F° et la convertie en C° suivant la formule mathématique. Par la suite, elle la retourne.
+end
 
-end 
-# convert celcius to fahrenheit
-def ctof (c_degree)
-    (c_degree * 9.0 / 5.0 ) + 32
-
-
-end 
-
+def ctof(num)
+    return (num*9.0/5.0+32) #la fonction prend en entrée la température en C° et la convertie en F° suivant la formule mathématique. Par la suite, elle la retourne.
+end
