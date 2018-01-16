@@ -28,7 +28,7 @@ def first_word(string)
  	string =  string.split(' ')[0]
 end
 
-#TITLEIZE on defini 1 dictionnary pour les petits mots et un variable avec la methode .split(' ') .... #
+#TITLEIZE on defini 1 dictionnaire pour les petits mots et 1 variable. Après avoir splitter le texte, on va itérer sur les mots pour vérifier si ils sont dans le dictionnaire. Si ils sont dedans, la méthode pour les mettre en majuscules n'est pas appliquée sur eux#
 
 def titleize(string)
     
