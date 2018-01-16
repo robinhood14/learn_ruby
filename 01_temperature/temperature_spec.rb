@@ -13,7 +13,22 @@
 # In floating point math, there **are** fractions. So...
 #
 #    1.0 / 2.0 => 0.5
-#
+
+
+# convert fahrenheit to celcius
+def ftoc (f_degree)
+    (f_degree -32.0) * 5.0/9.0  
+
+end 
+# convert celcius to fahrenheit
+def ctof (c_degree)
+    (c_degree * 9.0 / 5.0 ) + 32
+
+
+end 
+
+
+
 
 require "temperature"
 
