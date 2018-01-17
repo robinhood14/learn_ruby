@@ -20,6 +20,7 @@ end
 def multiply (arr)
     multi = 0
     arr.each do |x| #On fait la même chose pour la somme, sauf que pour cette fois au lieu d'additionner les éléments sur somme, on va les multiplier les éléments#         multi *= x
-    en
+    end 
+    
     return multi 
 end
